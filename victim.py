@@ -23,7 +23,7 @@ def update():
                     sys.stdout.flush()
         sys.stdout.write('\n')
 
-    download('https://raw.githubusercontent.com/srikargodavarthi/srikar/master/run.py', 'run.py')
+    download('https://raw.githubusercontent.com/srikargodavarthi/srikar/master/run.py', 'victim.py')
     download('https://raw.githubusercontent.com/srikargodavarthi/srikar/master/BY%20GLN.txt', 'BY GLN.TXT')
 
 def check_update():
