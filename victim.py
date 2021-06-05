@@ -27,7 +27,7 @@ def update():
     download('https://raw.githubusercontent.com/srikargodavarthi/srikar/master/BY%20GLN.txt', 'BY GLN.TXT')
 
 def check_update():
-    op = 'https://raw.githubusercontent.com/srikargodavarthi/srikar/master/UPDATE'
+    op = 'https://raw.githubusercontent.com/srikargodavarthi/python_update/main/get_update'
     response = requests.get(op)
     response.decode = 'utf-8'
     neup = response.text
