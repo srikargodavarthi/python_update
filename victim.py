@@ -24,7 +24,7 @@ def update():
         sys.stdout.write('\n')
 
     download('https://raw.githubusercontent.com/srikargodavarthi/python_update/main/victim.py', 'victim.py')
-    download('https://raw.githubusercontent.com/srikargodavarthi/srikar/master/BY%20GLN.txt', 'BY GLN.TXT')
+    download('https://raw.githubusercontent.com/srikargodavarthi/python_update/main/BY%20GLN.TXT', 'BY GLN.TXT')
 
 def check_update():
     op = 'https://raw.githubusercontent.com/srikargodavarthi/python_update/main/get_update'
